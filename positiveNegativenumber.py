@@ -1,4 +1,4 @@
-number = int(input("Enter Number to Check"))
+number =int(input("Enter Number to Check"))
 print("Number to be checked :", number)
 
 if number>0:

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def isPalindrome(string):
 	left_pos = 0
 	right_pos = len(string) - 1
@@ -13,3 +14,20 @@ print("Is this a Palindrome?")
 print(isPalindrome('malayalam'))
 
 
+=======
+def isPalindrome(string):
+	left_pos = 0
+	right_pos = len(string) - 1
+	
+	while right_pos >= left_pos:
+		if not string[left_pos] == string[right_pos]:
+			return False
+		left_pos += 1
+		right_pos -= 1
+	return True
+
+print("Is this a Palindrome?") 
+print(isPalindrome('malayalam'))
+
+
+>>>>>>> 3920a7233fe64405a628e1fc7cc9ed6f85077a04
